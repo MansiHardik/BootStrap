@@ -135,7 +135,7 @@ table,table-reponsive,table-striped,table-bordered,table-hover,table-condensed,(
 btn,btn-primary,btn-success,btn-default,btn-info,btn-warning,btn-danger,btn-link,btn-lg,btn-sm,btn-md,btn-xs,btn-block,active,disabled 
 that r used for button,
 also used with <a> <input type="button"><input type="submit"><button>
-
+     <!-- Footer Area -->
     </body>
 </html>
 
