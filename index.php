@@ -4,6 +4,21 @@
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
         <script src="js/bootstrap.min.js"></script>
+		<titel>Traning</titel>
+		
+		 <script type='text/javascript'>
+        
+        $(document).ready(function() {
+            $('[data-toggle=offcanvas]').click(function() {
+				$('.row-offcanvas').toggleClass('active');
+			});
+
+			$('.btn-toggle').click(function() {
+				$(this).find('.btn').toggleClass('active').toggleClass('btn-default').toggleClass('btn-danger');
+			});
+        });
+        
+        </script>
     </head>
     <body>
         <!--       <ul class="nav nav-tabs">
@@ -134,8 +149,15 @@ table,table-reponsive,table-striped,table-bordered,table-hover,table-condensed,(
 
 btn,btn-primary,btn-success,btn-default,btn-info,btn-warning,btn-danger,btn-link,btn-lg,btn-sm,btn-md,btn-xs,btn-block,active,disabled 
 that r used for button,
-also used with <a> <input type="button"><input type="submit"><button>
-     <!-- Footer Area -->
+also used with 
+</br>	 
+<center>
+	 <div class="btn-group btn-toggle"> 
+                        <button class="btn btn-default">ON</button>
+                        <button class="btn btn-danger active">OFF</button>
+                      </div>
+					  </center>
+ 
     </body>
 </html>
 
